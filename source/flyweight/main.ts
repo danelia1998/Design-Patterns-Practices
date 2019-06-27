@@ -1,0 +1,2 @@
+import { colorFactory } from "./index"
+

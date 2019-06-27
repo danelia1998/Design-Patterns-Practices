@@ -1,11 +1,11 @@
-import {shipModel,Droid} from './interface'
+import { shipModel, Droid } from './interface'
 
 
 function droidProducer(kind: shipModel) {
-    if (kind === 'battle'){
+    if (kind === 'battle') {
         return battleDroidFactory();
     }
-        return pilotDroidFactory();
+    return pilotDroidFactory();
 }
 
 

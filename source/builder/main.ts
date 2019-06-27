@@ -1,2 +1,2 @@
-import {RequestBuilder} from "./index"
+import { RequestBuilder } from "./index"
 

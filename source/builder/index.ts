@@ -1,12 +1,12 @@
-import { RequestConstructor, RequestBuilderInterface} from './interface'
+import { RequestConstructor, RequestBuilderInterface } from './interface'
 
-export class Request implements RequestConstructor{
+export class Request implements RequestConstructor {
     url = '';
     method = '';
     payload = {};
 }
 
-export class RequestBuilder implements RequestBuilderInterface{
+export class RequestBuilder implements RequestBuilderInterface {
     request: Request;
     constructor() {
         this.request = new Request();
@@ -22,7 +22,7 @@ export class RequestBuilder implements RequestBuilderInterface{
         return this;
     }
 
-    payload(payload : object) {
+    payload(payload: object) {
         this.request.payload = payload;
         return this;
     }
