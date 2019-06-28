@@ -7,5 +7,5 @@ export interface InkInterface {
 
 export interface IPrinter {
     ink: InkInterface;
-    print() : string;
+
 }
